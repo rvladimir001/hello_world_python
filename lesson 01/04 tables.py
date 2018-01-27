@@ -1,4 +1,3 @@
-import math;
 x = int(input('в первом классе:',));
 y = int(input('во втором классе:',));
 z = int(input('в третьем классе:',));
