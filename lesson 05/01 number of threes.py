@@ -9,10 +9,7 @@ if x>100 or x<999:
     print("число должно быть трехзначным!")
     exit()
     
-lenght = len(num)
-i = 0
-result = 1;
-while i<lenght:
-    result*=float(num[i])
-    i+=1
-print("произведение трех введенных числе: ",result)
+result = 1
+for i in num:
+    result=result*int(i)
+print("Произведение чисел: ",result)
