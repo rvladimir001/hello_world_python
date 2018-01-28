@@ -5,7 +5,7 @@ if not num.isdigit():
     exit()
     
 x = float(num)
-if x>100 or x<999:
+if x<100 or x>1000:
     print("число должно быть трехзначным!")
     exit()
     
