@@ -1,5 +1,5 @@
 import random
-listNumber =[]
+listNumber=[]
 i=10
 while i>0:
     x = random.randrange(0, 99, 1)
@@ -13,5 +13,5 @@ for j in listNumber:
         evenNumbers.append(j)
     else:
         unEvenNumbers.append(j)
-print( evenNumbers)
-print( unEvenNumbers)
+print(evenNumbers)
+print(unEvenNumbers)
