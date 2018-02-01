@@ -1,4 +1,12 @@
-listNumber =[78, 5, 23, 7, 128, 13, 54, 231, 72, 18]
+import random
+listNumber =[]
+k=10
+while k>0:
+    x = random.randrange(0, 99, 1)
+    listNumber.append(x)
+    k=k-1
+print(listNumber)
+
 NewListNumber = []
 i=2
 while (i<len(listNumber)):
