@@ -1,7 +1,16 @@
-listNumber =[78, 5, 23, 7, 128, 3]
-#max с помощью встроенной функции
-print(max(listNumber))
-#max через цикл
+import random
+listNumber =[]
+k=6
+while k>0:
+    x = random.randrange(0, 99, 1)
+    listNumber.append(x)
+    k=k-1
+print(listNumber)
+
+maxNum = max(listNumber)
+maxInd = listNumber.index(maxNum)
+print("elem: ", maxNum, "index: ", maxInd)
+
 i=0
 index=0
 max=0
