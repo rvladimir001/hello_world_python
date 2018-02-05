@@ -1,14 +1,7 @@
+#Заполнить список из четырёх элементов введёными строковыми значениями. Вывести список на экран.
+
 listNumber =[]
-max = 4
-i = 0
-while i<max:
+for i in range(1, 5):
     num = input("Введите число: ")
-    #проверка
-    if not num.isdigit():
-        print("введите цифру!")
-        exit()
-        
     listNumber.append(num)
-    i+=1
-for i in listNumber:
-    print(i)
+print(listNumber)
