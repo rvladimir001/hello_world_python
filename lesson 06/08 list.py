@@ -1,3 +1,6 @@
+#Заполнить список из десяти элементов произвольными целочисленными значениями.
+#Затем четные элементы расположить в начале списка, нечетные - в конце.
+
 import random
 listNumber=[]
 i=10
@@ -13,5 +16,4 @@ for j in listNumber:
         evenNumbers.append(j)
     else:
         unEvenNumbers.append(j)
-print(evenNumbers)
-print(unEvenNumbers)
+print(evenNumbers+unEvenNumbers)
