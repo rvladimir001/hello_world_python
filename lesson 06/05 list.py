@@ -1,14 +1,15 @@
+#Заполнить список из десяти элементов произвольными целочисленными значениями.
+#Получить список из элементов певрого списка, стоящих на четных местах.
+
 import random
 listNumber =[]
-k=10
-while k>0:
-    x = random.randrange(0, 99, 1)
+for i in range(1, 11):
+    x = random.randrange(0, 100, 1)
     listNumber.append(x)
-    k=k-1
 print(listNumber)
 
 NewListNumber = []
-i=2
+i=0
 while (i<len(listNumber)):
     NewListNumber.append(listNumber[i])
     i=i+2
