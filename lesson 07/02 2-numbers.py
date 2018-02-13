@@ -1,12 +1,13 @@
 #Написать функцию, возвращающую два введеных с клавиатуры числа.
-def sum():
-    x = input('Первое число: ')
+num1 = input('Первое число: ')
+num2 = input('Второе число: ')
+def sum(x,y):
     if not x.isdigit():
         print("введите число!")
         exit()
-    y = input('Второе число: ')
     if not y.isdigit():
         print("введите число!")
         exit()
-    print("Вы ввели сначала {}, а потом {}".format(x,y))
-sum()
+    str ="Вы ввели сначала {}, а потом {}".format(x,y)
+    return str
+print(sum(num1, num2))

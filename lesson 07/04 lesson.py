@@ -10,6 +10,7 @@ def square(x):
     perimeter = x*4
     area = x*x
     diagonal = math.sqrt(x**2+x**2)
-    print("Периметр: {}, Площадь: {}, Диагональ: {}".format(perimeter, area, diagonal))
+    str = "Периметр: {}, Площадь: {}, Диагональ: {}".format(perimeter, area, diagonal)
+    return str
 a = input("Длина стороны квадрата: ")
-square(a)
+print(square(a))

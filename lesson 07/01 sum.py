@@ -1,12 +1,7 @@
 #Написать функцию, вычисляющую сумму двух переданных чисел.
-def sum():
-    x = input('Первое число: ')
-    if not x.isdigit():
-        print("введите число!")
-        exit()
-    y = input('Второе число: ')
-    if not y.isdigit():
-        print("введите число!")
-        exit()
-    print(int(x)+int(y))
-sum()
+num1 = 51
+num2 = 23
+
+def sum(x,y):
+    return(int(x)+int(y))
+print(sum(num1,num2))
