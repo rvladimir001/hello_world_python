@@ -2,10 +2,11 @@
 #разделяя их пробелами или новыми строками. При решении этой задачи нельзя
 #использовать строки, списки, массивы (ну и циклы, разумеется).
 
-def printReverse(x):
-    y = x.list(str(x))
-    print(y)
-#n = 50
-#print(*range(n))
-
-printReverse(123)
+def revers(x):
+    if x // 10 > 0:
+        print(x % 10)
+        revers(x // 10)
+    else:
+        print(x % 10)
+num = int(input("введите число: "))
+revers(num)
