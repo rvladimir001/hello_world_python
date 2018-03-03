@@ -11,13 +11,16 @@ def listCreate(x):
         element = randint(0, 1000)
         lst.append(element)
     return lst
-arr = listCreate(num)
 
+arr = listCreate(num)
 #для проверки
-#arr = [12, 2, 45, 65, 12, 2, 43, 65]
+#arr = [12, 2, 3, 2, 2, 2]
 
 numbers = {}
 for k in arr:
-    numbers[k]="0"
-print(len(arr))
+    if k not in numbers:
+        numbers[k]=1
+    else:
+        numbers[k]+=1
+print(arr)
 print(len(numbers))
