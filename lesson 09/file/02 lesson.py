@@ -22,6 +22,4 @@ for k in str1:
         
 f.close()
 
-print("строк в файле: ", countStr)
-print("слов в файле: ", lstline)
-print("букв в файле: ", letters)
+print("Строк: {} Слов: {} Букв: {}".format(countStr, lstline, letters))
